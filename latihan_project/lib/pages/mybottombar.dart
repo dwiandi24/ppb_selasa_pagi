@@ -9,7 +9,8 @@ class MyBottomBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomAppBar(
       child: Container(
-        child: Padding(
+        child: Container(
+          height:60.0,
           padding: EdgeInsets.only(top:6.0),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
